@@ -1,9 +1,29 @@
-.debug{
-    background-color: blueviolet;
+header{
+    background-color: gold;
 }
 
+.my-hero{
+    background-color: aquamarine;
+}
 
-.debug  .header_container{
-    background-color: blue;
+.col_debug{
     height: 100px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+.container_debug{
+    
+    background-color: hotpink;
+    border: 1px solid black;
+}
+
+.my-portfolio{
+  background-color: chartreuse;  
+}
+
+.col_debug1{
+    height: 100px;
+    background-color: rgb(157, 26, 48);
+    border: 1px solid black;
 }
