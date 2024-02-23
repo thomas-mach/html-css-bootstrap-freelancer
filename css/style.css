@@ -21,6 +21,8 @@ header{
     border-bottom: 5px solid;
 }
 
+/* PORTFOLIO */
+
 .my-portfolio span::before,
 .my-portfolio span::after{
     content: "";
@@ -29,6 +31,32 @@ header{
     margin-bottom: 0.3rem;
     border-bottom: 5px solid;
 }
+
+/* ABOUT */
+ .my-about{
+    color: white;
+    background-color: #1ABC9C;
+ }
+
+.my-about span::before,
+.my-about span::after{
+    content: "";
+    display: inline-block;
+    width: 140px;
+    margin-bottom: 0.3rem;
+    border-bottom: 5px solid;
+}
+
+
+/* MEDIA QUERY */
+@media (min-width: 768px){
+    .about_content{
+        column-count: 2;
+    }
+}
+
+
+
 
 
 /* debug */
