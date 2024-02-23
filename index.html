@@ -6,20 +6,23 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/04b99885ba.js" crossorigin="anonymous"></script>
     
-  <body>
+  <body class="text-white">
     
-    <header>header
-        <div class="container">
-            <div class="row">
-               <div class="col d-flex justify-content-between col_debug">
-                <div>START BOOTSTRAP</div>
+    <header>
+        <div class="container-xl">
+            <div class="row d-flex  py-3">
+               <div class="col d-flex justify-content-between align-items-center ">
+                <div class="fs-5 fw-bolder m-0">START BOOTSTRAP</div>
                     
-                <ul>
+                <ul class="d-none d-md-flex list-unstyled gap-3 d-flex justify-content-end fs-6 m-0 ">
                     <li>PORTFOLIO</li>
                     <li>ABOUT</li>
                     <li>CONTACT</li>
                 </ul>
+
+                <i class="fa-solid fa-bars d-md-none border p-1 radius-1 rounded-2"></i>
                 </div>
              </div>
             
@@ -28,11 +31,14 @@
 
     <main>
         <!-- HERO -->
-        <section class="my-hero">hero
-            <div class="container">
+        <section class="my-hero">
+            <div class="container-md">
                 <div class="row">
-                    <div class="col-12 col_debug">
-                        col12
+                    <div class="col d-flex flex-column align-items-center">
+                        <img class="mb-2" style="width: 50%" src="img/avatar.svg" alt="avatar">
+                        <div class="mb-2 fs-1 fw-bolder">START BOOTSTRAP</div>
+                        <span class=""><i class="mb-2 mx-3 fa-solid fa-star"></i></span>    
+                        <div class="mb-5 fs-6">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>  
                     </div>
                 </div>
             </div>
@@ -41,7 +47,7 @@
 
         <!-- PORTFOLIO -->
         <section class="my-portfolio">portfolio
-            <div class="container">
+            <div class="container-xl">
                 <div class="row">
                     <div class="col-12 col-md-6 col-xl-4 col_debug"></div>
                     <div class="col-12 col-md-6 col-xl-4 col_debug"></div>
@@ -56,7 +62,7 @@
         
         <!--ABOUT-->
         <section class="my-about">about
-            <div class="container">
+            <div class="container-md">
                 <div class="row">
                     <div class="col-12 col_debug"></div>
                     <div class="col-12 col-md-6 col_debug"></div>
@@ -68,7 +74,7 @@
 
         <!-- CONTCT ME -->
         <section class="my-contact_me">contact me
-            <div class="container">
+            <div class="container-md">
                 <div class="row">
                     <div class="col-12 col_debug"></div>
                     <div class="col-12 col_debug"></div>
@@ -80,7 +86,7 @@
 
       <!-- FOOTER -->
       <footer class="my-footer">footer
-        <div class="container">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-12 col-md-4 col_debug"></div>
                 <div class="col-12 col-md-4 col_debug"></div>

@@ -1,11 +1,22 @@
 header{
-    background-color: gold;
+    background-color: #2C3E50;
 }
-
+/* HERO */
 .my-hero{
-    background-color: aquamarine;
+    background-color: #1ABC9C;
 }
 
+.my-hero span::before,
+.my-hero span::after{
+    content: "";
+    display: inline-block;
+    width: 140px;
+    color: white;
+    margin-bottom: 0.3rem;
+    border-bottom: 5px solid white;
+    
+}
+/* debug */
 .col_debug{
     height: 100px;
     background-color: pink;
@@ -26,4 +37,6 @@ header{
     height: 100px;
     background-color: rgb(157, 26, 48);
     border: 1px solid black;
+    
 }
+
