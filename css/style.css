@@ -3,10 +3,26 @@ img{
     width: 100%;
 }
 
+input{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    display: block;
+}
 
+textarea{
+    border: none;
+    display: block;
+}
+
+/* HEADER */
 header{
     background-color: #2C3E50;
 }
+
 /* HERO */
 .my-hero{
     background-color: #1ABC9C;
@@ -47,6 +63,30 @@ header{
     border-bottom: 5px solid;
 }
 
+/* CONTACT ME */
+.my-contact_me{
+    color: black;
+}
+
+.my-contact_me span::before,
+.my-contact_me span::after{
+    content: "";
+    display: inline-block;
+    width: 140px;
+    margin-bottom: 0.3rem;
+    border-bottom: 5px solid;
+}
+
+.my-contact_me form > *{
+    border-bottom: 1px solid #CCCCCC;
+    margin-bottom: 8px;
+    font-size: 0.75rem;
+}
+
+.custom-bg-color{
+    background-color: #1ABC9C;
+    color: white;
+}
 
 /* MEDIA QUERY */
 @media (min-width: 768px){
