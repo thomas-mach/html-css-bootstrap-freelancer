@@ -1,3 +1,9 @@
+/* RESET */
+img{
+    width: 100%;
+}
+
+
 header{
     background-color: #2C3E50;
 }
@@ -11,11 +17,20 @@ header{
     content: "";
     display: inline-block;
     width: 140px;
-    color: white;
     margin-bottom: 0.3rem;
-    border-bottom: 5px solid white;
-    
+    border-bottom: 5px solid;
 }
+
+.my-portfolio span::before,
+.my-portfolio span::after{
+    content: "";
+    display: inline-block;
+    width: 140px;
+    margin-bottom: 0.3rem;
+    border-bottom: 5px solid;
+}
+
+
 /* debug */
 .col_debug{
     height: 100px;
@@ -29,9 +44,9 @@ header{
     border: 1px solid black;
 }
 
-.my-portfolio{
+/* .my-portfolio{
   background-color: chartreuse;  
-}
+} */
 
 .col_debug1{
     height: 100px;
